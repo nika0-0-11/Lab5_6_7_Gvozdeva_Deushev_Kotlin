@@ -21,7 +21,7 @@ fun main() {
         println("${index + 1}: $line")
     }*/
 
-    /*val file = File("toDo.txt")
+    /*val file = File()
     println("Добро пожаловать в To-Do приложение!")
 
     while (true) {
