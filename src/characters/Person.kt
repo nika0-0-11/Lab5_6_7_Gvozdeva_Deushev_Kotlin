@@ -23,7 +23,7 @@ fun main() {
     enemy.takeDamage(20)
     println(enemy.name)*/
 
-    val trader = Trader("Ральф")
+    /*val trader = Trader("Ральф")
 
     trader.addQuest(Quest("Собрать травы", 2, 50,"Легкий", QuestType.DELIVERY))
     trader.addQuest(Quest("Убить волков", 3, 100, "Средний", QuestType.ELIMINATION))
@@ -31,6 +31,13 @@ fun main() {
     trader.showAvailableQuests()
 
     val selectedQuest = trader.giveQuest(1)
-    selectedQuest.describe()
+    selectedQuest.describe()*/
+
+    // Самостоятельные задания lab-8
+
+    // Задание 2: Работа с системой ввода-вывода
+
+   val trader = Trader()
+   trader.start()
 }
 
